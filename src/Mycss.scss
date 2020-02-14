@@ -1,0 +1,123 @@
+body{
+    overflow: hidden;
+    //background-color: steelblue
+    
+}
+.color{
+    background-color: green;
+}
+.fixed{
+   position: fixed;
+}
+.animations{
+    transition: all .5s linear 5s;
+}
+
+                    // Action buttins
+.actions{
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    position:  absolute;
+ //   transform: translateY(0px);
+}
+.actions .btn:first-child{ 
+    border-radius: 0px 10px 10px 0px;
+width:101px;
+}
+.actions .btn:last-child{
+    //border: 0px;
+    top: 20px;
+    border-radius: 0px 10px 10px 0px;
+}
+       // chat box
+.chatbox{
+    position: fixed;
+    width: 200px;
+    height: 90vh;
+    margin-top: 13px;
+    right: 24px;
+    top: -2px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+}                
+.header{
+    background: #e0e1e2;
+    height: 36px;
+    
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+.head{
+    background: #e0e1e2;
+    height: 36px;
+    
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+    
+    padding: 5px;
+    
+    
+}
+
+.box{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    display: inline-block;
+}
+.btn_close{
+    left: 146px;
+    position: absolute;
+    width: 53px;    
+}
+.chat_IncommingMsg{
+    padding: 3px;
+    background-color: hsl(210, 3%, 88%);
+    border-radius: 15px 15px 15px 0px;
+    margin-top: 11px;
+    width: 121px;
+    margin-left: 38px;
+    box-shadow: 2px 2px 2px 2px #3056766b
+}
+.chat_OutGoingMsg{
+    padding: 3px;
+    background-color: #dfe0e1;
+    border-radius: 15px 15px 0px 15px;
+    margin-top: 11px;
+    width: 121px;
+    text-align: end;
+    margin-left: 75px;
+    box-shadow: 0px 2px 2px 2px #3056766b
+}
+.inputfield{
+    position: absolute;
+    height: 36px;
+    margin-top: 167px;
+    border-radius: 5px 0px 0px 5px;
+    width: 154px;
+    
+}
+.btnSend{
+    right: 0px;
+    position: absolute;
+    top: 1px;
+    width: 0px;
+    margin-top: 166px;
+    border-radius: 0px 5px 5px 0px;
+}
+.footer{
+    margin-top: 171px;
+    position: absolute;
+}
+#sendIcon{
+    font-size: 17px;
+    margin-left: -8px;
+}
+.img{
+    width: 40px;
+    border-radius: 50%;
+    float: left;
+    margin: 9px 12px 0 9px; 
+}
